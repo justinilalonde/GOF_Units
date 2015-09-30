@@ -66,8 +66,6 @@ class CfgVehicleClasses
     {
         displayname = "Rifleman Backpack"; //In-Game Name
         scope = 2;
-		hiddenSelections[] = {"camo"};
-        hiddenSelectionsTextures[] = {"TEST\Data\TEST_Backpack_co.paa"}; //Backpack Textures 
  
         class TransportItems
          {
