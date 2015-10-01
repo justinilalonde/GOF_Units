@@ -39,11 +39,11 @@ class CfgVehicleClasses
 
  class CfgVehicles
 {
-	class B_Soldier_base_F; //Calling classes
+	class   b_survivor_F  ; //Calling classes
 	class rhsusf_assault_eagleaiii_ocp; 
 	class B_Heli_Light_01_F; 
 		
-	class GOFBUSR: B_Soldier_base_F //Unit Class name: Class getting info from
+	class GOFBUSR:   b_survivor_F   //Unit Class name: Class getting info from
 	{
 		side = 1; //Blufor
 		faction = "GOFB"; //Your Faction
