@@ -72,12 +72,12 @@ class CfgVehicleClasses
             class _xx_Medikit //Item Classname
             {
                 name = "Medikit";
-                count = 1; //amount
+                count = 0; //amount
             };
             class _xx_FirstAidKit //Item Classname
             {
                 name = "FirstAidKit";
-                count = 5; //amount
+                count = 0; //amount
             };
          };
     };
