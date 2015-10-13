@@ -39,7 +39,7 @@ class CfgVehicleClasses
 
  class CfgVehicles
 {
-	class   b_survivor_F  ; //Calling classes
+	class b_survivor_F  ; //Calling classes
 	class rhsusf_assault_eagleaiii_ocp; 
 	class B_Heli_Light_01_F; 
 		
