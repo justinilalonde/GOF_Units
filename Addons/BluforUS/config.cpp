@@ -177,6 +177,8 @@ class cfgWeapons
         hiddenSelectionsTextures[] = {"TEST\data\TEST_Helmet_co.paa"}; // Path to your texture.
         class ItemInfo: HeadgearItem
         {
+			ace_hearing_protection = 0.80;  // Protection against deafening (0 to 1, higher means more protection)
+            ace_hearing_lowerVolume = 0.60;  // Muffling of the sound (0 to 1, higher means more muffling)
             mass = 40; // Weight
             uniformModel = "\A3\Characters_F_EPA\BLUFOR\headgear_b_helmet_kerry";
             modelSides[] = {3,1,2};
