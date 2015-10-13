@@ -212,6 +212,39 @@ class cfgWeapons
          };
         };
     };
+	
+	
+	class MyMG 
+	{
+		scope = 2;
+        displayName = "GOFMG";
+        class LinkedItems
+        {
+            class LinkedItemsOptic //Attachment: Optics
+         {
+            slot = "CowsSlot";
+            item = "rhsusf_acc_eotech_552";
+         };
+		 
+            class LinkedItemsMuzzle //Attachment: Barrel
+         {
+            slot = "MuzzleSlot";
+            item = "muzzle_snds_B";
+         };
+ 
+            class LinkedItemsAcc //Attachment: Accessory 
+         {
+            slot = "PointerSlot";
+            item = "rhsusf_acc_anpeq15side";
+         };
+        };
+        ace_overheating_allowSwapBarrel = 1;  // Enable barrel swap (0-disabled, 1-enabled) - information below
+        ace_overheating_dispersion[] = {0, -0.001, 0.001, 0.004};  // Bullet dispersion (in radians) - information below
+        ace_overheating_slowdownFactor[] = {1, 1, 1, 0.9};  // Slowdown factor inside the barrel - information below
+        ace_overheating_jamChance[] = {0, 0.0003, 0.0015, 0.0075};  // Jam chance - information below
+    };
+	
+	
 	class NVGREG: rhsusf_ANPVS_15
 	{
         displayName = "High Quality NVGs";  // Name displayed in the inventory
@@ -219,7 +252,17 @@ class cfgWeapons
         ace_nightVision_blur = 0.100;  // Blur amount (more means more blur) - keep low values!                                 default:0.055
         ace_nightVision_radBlur = 0.001;  // Radial blur amount (more means more blur) - keep low values!                       default:0.001
     };
+
 	
+	class MyLauncher 
+	{
+		scope = 2;
+        displayName = "GOFROCKET";
+        ace_overpressure_angle = 60;  // Cone in which the damage is applied (in degrees from the back end of the launcher)
+        ace_overpressure_range = 15;  // Range in meters in which the damage is applied
+        ace_overpressure_damage = 0.7;  // Damage multiplier
+		ace_reloadlaunchers_enabled = 1;  // Allow your buddies to reload your launcher (0-disabled, 1-enabled)
+    };
 	
 };
 
