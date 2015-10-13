@@ -57,8 +57,8 @@ class CfgVehicleClasses
 		respawnWeapons[] = {"GOFM16","rhs_weap_rsp30_red","Throw","Put"}; 
 		magazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red",};
 		respawnMagazines[] = {"30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","HandGrenade","HandGrenade","HandGrenade"};
-		linkedItems[] = {"rhsusf_iotv_ocp_Rifleman","rhsusf_ach_helmet_ocp_norotos","ItemMap","ItemCompass","tfmicrodagr","tfanprc152_10","ItemGPS","rhsusf_ANPVS_15"};
-		respawnLinkedItems[] = {"rhsusf_iotv_ocp_Rifleman","rhsusf_ach_helmet_ocp_norotos","ItemMap","ItemCompass","tfmicrodagr","tfanprc152_10","ItemGPS","rhsusf_ANPVS_15"};
+		linkedItems[] = {"rhsusf_iotv_ocp_Rifleman","rhsusf_ach_helmet_ocp_norotos","ItemMap","ItemCompass","tfmicrodagr","tfanprc152_10","ItemGPS","NVGREG"};
+		respawnLinkedItems[] = {"rhsusf_iotv_ocp_Rifleman","rhsusf_ach_helmet_ocp_norotos","ItemMap","ItemCompass","tfmicrodagr","tfanprc152_10","ItemGPS","NVGREG"};
 		uniformClass = "rhs_uniform_cu_ocp"; //uniform you are using
 		camouflage = 1.6; //If wanting to edit how hard it is for AI to detect it, wouldn't recommend changing this. 1.6 is Default and 2.0 is a sniper ghille 
 	};
@@ -125,6 +125,7 @@ class cfgWeapons
     class ItemCore;
     class HeadgearItem;
 	class rhs_weap_m16a4_carryhandle_grip;
+	class rhsusf_ANPVS_15;
 	
  
     class TEST_Uniform: Uniform_Base
@@ -210,6 +211,13 @@ class cfgWeapons
             item = "rhsusf_acc_anpeq15side";
          };
         };
+    };
+	class NVGREG: rhsusf_ANPVS_15
+	{
+        displayName = "High Quality NVGs";  // Name displayed in the inventory
+        ace_nightVision_grain = 2.75;  // Amount of grain (dots) on the screen (more means more grain) - can be higher than 1   default:0.75
+        ace_nightVision_blur = 0.100;  // Blur amount (more means more blur) - keep low values!                                 default:0.055
+        ace_nightVision_radBlur = 0.001;  // Radial blur amount (more means more blur) - keep low values!                       default:0.001
     };
 	
 	
