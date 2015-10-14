@@ -1,4 +1,3 @@
-#include "script_component.hpp"
 
 class CfgPatches
 {
@@ -8,7 +7,7 @@ class CfgPatches
         weapons[] = {};
         requiredVersion = 0.1;
         requiredAddons[] = {a3_characters_F, a3_characters_f_beta, a3_characters_f_gamma};
-		VERSION_CONFIG;
+		
     };
 };
 
@@ -16,3 +15,4 @@ class CfgPatches
 #include "CfgMagazines.hpp"
 #include "CfgWeapons.hpp"
 #include "CfgVehicles.hpp"
+#include "cfgFactionClasses.hpp"
