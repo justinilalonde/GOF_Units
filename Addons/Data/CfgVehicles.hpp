@@ -1,12 +1,18 @@
  class CfgVehicles
 {
 	class b_survivor_F; //Calling classes
-	class rhsusf_assault_eagleaiii_ocp; 
+	class rhsusf_assault_eagleaiii_ocp;
+	class NATO_Box_Base;
 	class B_Heli_Light_01_F; 
 	
     #define MACRO_BasicKit \
-    "FirstAidKit", "ACE_Clacker", "ACE_DefusalKit", \
-	
+    "ACE_EarPlugs", \
+	"ACE_CableTie", "ACE_CableTie", \
+	"ACE_IR_Strobe_Item", \
+	"ACE_M26_Clacker", \
+	"ACE_morphine", "ACE_morphine", \
+	"ACE_tourniquet", "ACE_tourniquet", \
+	"ACE_quikclot", "ACE_quikclot", "ACE_quikclot", "ACE_quikclot", "ACE_quikclot", "ACE_quikclot", "ACE_quikclot", "ACE_quikclot", "ACE_quikclot", "ACE_quikclot", \
 	
 	class GOFBUSR:   b_survivor_F   //Unit Class name: Class getting info from
 	{
@@ -14,16 +20,20 @@
 		faction = "GOFB"; //Your Faction
 		backpack = "BluRiflePack"; //Backpack
 		vehicleclass = "GOFBUS"; //Unit Group
-		author = "Delta 1 Actual"; //Self Explanatory 
+		author = "Derby"; //Self Explanatory 
 		_generalMacro = "GOFBUSR"; //Class Name
 		scope = 2; //makes it visible in the editor 
 		displayName = "Rifleman"; //In-Game Name
 		weapons[] = {"GOFM16","rhs_weap_rsp30_red","Binocular","Throw","Put"}; //Spawning Gear
 		respawnWeapons[] = {"GOFM16","rhs_weap_rsp30_red","Throw","Put"}; 
-		magazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red",};
-		respawnMagazines[] = {"30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","30Rnd_65x39_caseless_mag","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","HandGrenade","HandGrenade","HandGrenade"};
-		items[] = {"ACE_EarPlugs",MACRO_BasicKit };
-		respawnitems[] = {"FirstAidKit", "ACE_Clacker", "ACE_DefusalKit",};
+		magazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red",
+		"SmokeShell", "SmokeShell", "SmokeShell", "SmokeShell", "SmokeShell",
+		"SmokeShellGreen", "SmokeShellGreen", 
+		"SmokeShellBlue", "SmokeShellBlue", };
+		respawnMagazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red",
+		};
+		items[] = {MACRO_BasicKit, }; //ACE items in here
+		respawnitems[] = {MACRO_BasicKit, };
 		linkedItems[] = {"rhsusf_iotv_ocp_Rifleman","rhsusf_ach_helmet_ocp_norotos","ItemMap","ItemCompass","tfmicrodagr","tfanprc152_10","ItemGPS","NVGREG"};
 		respawnLinkedItems[] = {"rhsusf_iotv_ocp_Rifleman","rhsusf_ach_helmet_ocp_norotos","ItemMap","ItemCompass","tfmicrodagr","tfanprc152_10","ItemGPS","NVGREG"};
 		uniformClass = "rhs_uniform_cu_ocp"; //uniform you are using
@@ -36,23 +46,44 @@
  
         class TransportItems
          {
+            class rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red //Item Classname
+            {
+                name = "Stanag_Tracer_Red";
+				count = 2; //amount
+            };
+            class SmokeShell //Item Classname
+            {
+                name = "White Smoke";
+				count = 2; //amount
+            };
+         };
+    };
+	
+	class GOFBOXTEST: NATO_Box_Base 
+	{
+		faction = "GOFB"; //Faction
+		vehicleclass = "GOFBUS"; //Group Class
+		displayName = "Crate(WIP)";
+		scope = 2;
+        class TransportItems 
+		{
             class _xx_Medikit //Item Classname
             {
                 name = "Medikit";
-                count = 0; //amount
+                count = 10; //amount
             };
             class _xx_FirstAidKit //Item Classname
             {
                 name = "FirstAidKit";
-                count = 0; //amount
+                count = 10; //amount
             };
-         };
+		};
     };
 	class TEST_MH9: B_Heli_Light_01_F 
 	{
 		faction = "GOFB"; //Faction
 		vehicleclass = "GOFBUS"; //Group Class
-		displayName = "MH-9"; //Ingame name
+		displayName = "MH-9(WIP)"; //Ingame name
 		crew = "B_Helipilot_F"; //or if you make your own crew... crew = "TEST_Heli_pilot";
 		hiddenSelections[] = {"camo1","camo2","camo3"};
 		hiddenSelectionsTextures[] = {"TEST\Data\TEST_mh9_co.paa","TEST\Data\TEST_MH9_co.paa","TEST\Data\TEST_MH9_co.paa"};
