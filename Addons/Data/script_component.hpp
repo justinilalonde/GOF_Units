@@ -1,4 +1,4 @@
-#define COMPONENT GOFDATA_comp
+#define COMPONENT Data
 
 #include "\z\ace\addons\main\script_mod.hpp"
 
