@@ -98,10 +98,37 @@ class cfgWeapons
         };
     };
 	
-		class GOFM4A1: rhs_weap_m4a1_carryhandle_m203S
+		class GOFM4A1203: rhs_weap_m4a1_carryhandle_m203S
     {
         scope = 2;
-        displayName = "GOF M4A1 Carryhandle";
+        displayName = "GOF M4A1 m203";
+        class LinkedItems
+        {
+            class LinkedItemsOptic //Attachment: Optics
+         {
+            slot = "CowsSlot";
+            item = "rhsusf_acc_eotech_552";
+         };
+		 
+            class LinkedItemsMuzzle //Attachment: Barrel
+         {
+            slot = "MuzzleSlot";
+            item = "muzzle_snds_B";
+         };
+ 
+            class LinkedItemsAcc //Attachment: Accessory 
+         {
+            slot = "PointerSlot";
+            item = "rhsusf_acc_anpeq15side";
+         };
+        };
+    };
+	
+	
+			class GOFM4A1: rhs_weap_m4_grip2
+    {
+        scope = 2;
+        displayName = "GOF M4A1 Grip";
         class LinkedItems
         {
             class LinkedItemsOptic //Attachment: Optics

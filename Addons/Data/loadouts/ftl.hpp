@@ -6,8 +6,8 @@
 		_generalMacro = "GOFBUSFTL"; //Class Name
 		scope = 2; //makes it visible in the editor 
 		displayName = "Fireteam leader"; //In-Game Name
-		weapons[] = {"GOFM4A1","rhs_weap_rsp30_red","Laserdesignator","Throw","Put"}; //Spawning Gear
-		respawnWeapons[] = {"GOFM4A1","rhs_weap_rsp30_red""Laserdesignator","Throw","Put"}; 
+		weapons[] = {"GOFM4A1203","rhs_weap_rsp30_red","Laserdesignator","Throw","Put"}; //Spawning Gear
+		respawnWeapons[] = {"GOFM4A1203","rhs_weap_rsp30_red""Laserdesignator","Throw","Put"}; 
 		magazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red",
 		"SmokeShell", "SmokeShell", "SmokeShell", "SmokeShell", "SmokeShell",
 		"SmokeShellGreen", "SmokeShellGreen", 
