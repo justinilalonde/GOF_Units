@@ -5,8 +5,17 @@
 
  class CfgVehicles
 {
-	class b_survivor_F; //Calling classes
-	class B_Soldier_TL_F; //FTL
+	class B_Soldier_F; 			// Rifleman
+	class B_Soldier_TL_F; 		// FTL
+	class B_soldier_LAT_F; 		// AT
+	class B_soldier_AR_F; 		// Autorifleman
+	class B_Soldier_A_F; 		// AR Assist
+	class B_soldier_exp_F; 		// AT/EOD
+	class B_medic_F; 			// Medic
+	class B_Soldier_SL_F;		// Squadleader
+	class B_Helipilot_F; 		// Chopper pilot
+	class B_helicrew_F; 		// Chopper crewman
+	class B_Pilot_F; 			// Fixed wing pilot
 	class rhsusf_assault_eagleaiii_ocp;
 	class NATO_Box_Base;
 	class B_Heli_Light_01_F; 
@@ -20,7 +29,7 @@
 	"ACE_tourniquet", "ACE_tourniquet", \
 	"ACE_quikclot", "ACE_quikclot", "ACE_quikclot", "ACE_quikclot", "ACE_quikclot", "ACE_quikclot", "ACE_quikclot", "ACE_quikclot", "ACE_quikclot", "ACE_quikclot", \
 	
-	class GOFBUSR:   b_survivor_F   //Unit Class name: Class getting info from
+	class GOFBUSR:   B_Soldier_F   //Unit Class name: Class getting info from
 	{
 		side = 1; //Blufor
 		faction = "GOFB"; //Your Faction
@@ -49,6 +58,11 @@
 	class GOFBUSFTL:   B_Soldier_TL_F   //Unit Class name: Class getting info from
 	{
 	#include "FTL.hpp"
+	};
+
+	class GOFBUSAT:   B_soldier_LAT_F
+	{
+	#include "AT.hpp"
 	};
 	
 	
