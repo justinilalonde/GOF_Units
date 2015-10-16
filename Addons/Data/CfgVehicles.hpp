@@ -6,6 +6,7 @@
  class CfgVehicles
 {
 	class b_survivor_F; //Calling classes
+	class B_Soldier_TL_F; //FTL
 	class rhsusf_assault_eagleaiii_ocp;
 	class NATO_Box_Base;
 	class B_Heli_Light_01_F; 
@@ -30,7 +31,7 @@
 		scope = 2; //makes it visible in the editor 
 		displayName = "Rifleman"; //In-Game Name
 		weapons[] = {"GOFM16","rhs_weap_rsp30_red","Binocular","Throw","Put"}; //Spawning Gear
-		respawnWeapons[] = {"GOFM16","rhs_weap_rsp30_red","Throw","Put"}; 
+		respawnWeapons[] = {"GOFM16","rhs_weap_rsp30_red","Binocular","Throw","Put"}; 
 		magazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red",
 		"SmokeShell", "SmokeShell", "SmokeShell", "SmokeShell", "SmokeShell",
 		"SmokeShellGreen", "SmokeShellGreen", 
@@ -44,6 +45,13 @@
 		uniformClass = "rhs_uniform_cu_ocp"; //uniform you are using
 		camouflage = 1.6; //If wanting to edit how hard it is for AI to detect it, wouldn't recommend changing this. 1.6 is Default and 2.0 is a sniper ghille 
 	};
+	
+	class GOFBUSFTL:   B_Soldier_TL_F   //Unit Class name: Class getting info from
+	{
+	#include "FTL.hpp"
+	};
+	
+	
 	class BluRiflePack: rhsusf_assault_eagleaiii_ocp
     {
         displayname = "Rifleman Backpack"; //In-Game Name
