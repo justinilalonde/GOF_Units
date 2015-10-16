@@ -1,3 +1,8 @@
+#define mag_xx(a,b) class _xx_##a {magazine = a; count = b;}
+#define weap_xx(a,b) class _xx_##a {weapon = a; count = b;}
+#define item_xx(a,b) class _xx_##a {name = a; count = b;}
+
+
  class CfgVehicles
 {
 	class b_survivor_F; //Calling classes
@@ -46,16 +51,14 @@
  
         class TransportItems
          {
-            class rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red //Item Classname
-            {
-                name = "Stanag_Tracer_Red";
-				count = 2; //amount
-            };
-            class SmokeShell //Item Classname
-            {
-                name = "White Smoke";
-				count = 2; //amount
-            };
+            
+         };
+		
+		class TransportMagazines
+         {
+			mag_xx(rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red,2); //Item Classname
+			mag_xx(SmokeShell,2); //Item Classname
+
          };
     };
 	
