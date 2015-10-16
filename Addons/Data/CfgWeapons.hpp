@@ -7,6 +7,7 @@ class cfgWeapons
     class ItemCore;
     class HeadgearItem;
 	class rhs_weap_m16a4_carryhandle_grip;
+	class rhs_weap_m4a1_carryhandle_m203S;
 	class rhsusf_ANPVS_15;
 	
  
@@ -75,6 +76,32 @@ class cfgWeapons
     {
         scope = 2;
         displayName = "GOF M16A4";
+        class LinkedItems
+        {
+            class LinkedItemsOptic //Attachment: Optics
+         {
+            slot = "CowsSlot";
+            item = "rhsusf_acc_eotech_552";
+         };
+		 
+            class LinkedItemsMuzzle //Attachment: Barrel
+         {
+            slot = "MuzzleSlot";
+            item = "muzzle_snds_B";
+         };
+ 
+            class LinkedItemsAcc //Attachment: Accessory 
+         {
+            slot = "PointerSlot";
+            item = "rhsusf_acc_anpeq15side";
+         };
+        };
+    };
+	
+		class GOFM4A1: rhs_weap_m4a1_carryhandle_m203S
+    {
+        scope = 2;
+        displayName = "GOF M4A1 Carryhandle";
         class LinkedItems
         {
             class LinkedItemsOptic //Attachment: Optics
