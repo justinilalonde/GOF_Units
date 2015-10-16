@@ -31,38 +31,57 @@
 	
 	class GOFBUSR:   B_Soldier_F   //Unit Class name: Class getting info from
 	{
-		side = 1; //Blufor
-		faction = "GOFB"; //Your Faction
-		backpack = "BluRiflePack"; //Backpack
-		vehicleclass = "GOFBUS"; //Unit Group
-		author = "Derby"; //Self Explanatory 
-		_generalMacro = "GOFBUSR"; //Class Name
-		scope = 2; //makes it visible in the editor 
-		displayName = "Rifleman"; //In-Game Name
-		weapons[] = {"GOFM16","rhs_weap_rsp30_red","Binocular","Throw","Put"}; //Spawning Gear
-		respawnWeapons[] = {"GOFM16","rhs_weap_rsp30_red","Binocular","Throw","Put"}; 
-		magazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red",
-		"SmokeShell", "SmokeShell", "SmokeShell", "SmokeShell", "SmokeShell",
-		"SmokeShellGreen", "SmokeShellGreen", 
-		"SmokeShellBlue", "SmokeShellBlue", };
-		respawnMagazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red",
-		};
-		items[] = {MACRO_BasicKit, }; //ACE items in here
-		respawnitems[] = {MACRO_BasicKit, };
-		linkedItems[] = {"rhsusf_iotv_ocp_Rifleman","rhsusf_ach_helmet_ocp_norotos","ItemMap","ItemCompass","tfmicrodagr","tfanprc152_10","ItemGPS","NVGREG"};
-		respawnLinkedItems[] = {"rhsusf_iotv_ocp_Rifleman","rhsusf_ach_helmet_ocp_norotos","ItemMap","ItemCompass","tfmicrodagr","tfanprc152_10","ItemGPS","NVGREG"};
-		uniformClass = "rhs_uniform_cu_ocp"; //uniform you are using
-		camouflage = 1.6; //If wanting to edit how hard it is for AI to detect it, wouldn't recommend changing this. 1.6 is Default and 2.0 is a sniper ghille 
+		#include "loadouts\rifleman.hpp"
 	};
 	
-	class GOFBUSFTL:   B_Soldier_TL_F   //Unit Class name: Class getting info from
+	class GOFBUSFTL:   B_Soldier_TL_F 
 	{
-	#include "FTL.hpp"
+		#include "loadouts\ftl.hpp"
 	};
 
 	class GOFBUSAT:   B_soldier_LAT_F
 	{
-	#include "AT.hpp"
+		#include "loadouts\at.hpp"
+	};
+	
+	class GOFBUSAR:   B_soldier_AR_F
+	{
+		#include "loadouts\ar.hpp"
+	};
+	
+	class GOFBUSAAR:   B_Soldier_A_F
+	{
+		#include "loadouts\aar.hpp"
+	};
+	
+	class GOFBUSEOD:   B_soldier_exp_F
+	{
+		#include "loadouts\eod.hpp"
+	};
+	
+	class GOFBUSMED:   B_medic_F
+	{
+		#include "loadouts\medic.hpp"
+	};
+	
+	class GOFBUSSQL:   B_Soldier_SL_F
+	{
+		#include "loadouts\sql.hpp"
+	};
+	
+	class GOFBUSHEP:   B_Helipilot_F
+	{
+		#include "loadouts\helipilot.hpp"
+	};
+	
+	class GOFBUSHEC:   B_helicrew_F
+	{
+		#include "loadouts\helicrew.hpp"
+	};
+	
+	class GOFBUSFIX:   B_Pilot_F
+	{
+		#include "loadouts\fixpilot.hpp"
 	};
 	
 	
