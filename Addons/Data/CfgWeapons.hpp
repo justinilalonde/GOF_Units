@@ -99,7 +99,35 @@ class cfgWeapons
         };
     };
 	
-		class GOFM4A1203: rhs_weap_m4a1_carryhandle_m203S
+	
+	class GOFM249: rhs_weap_m249_pip_S_vfg
+    {
+        scope = 2;
+        displayName = "GOF M4A1 Grip";
+        class LinkedItems
+        {
+            class LinkedItemsOptic //Attachment: Optics
+         {
+            slot = "CowsSlot";
+            item = "rhsusf_acc_eotech_552";
+         };
+		 
+            class LinkedItemsMuzzle //Attachment: Barrel
+         {
+            slot = "MuzzleSlot";
+            item = "muzzle_snds_B";
+         };
+ 
+            class LinkedItemsAcc //Attachment: Accessory 
+         {
+            slot = "PointerSlot";
+            item = "rhsusf_acc_anpeq15side";
+         };
+        };
+    };
+	
+	
+	class GOFM4A1203: rhs_weap_m4a1_carryhandle_m203S
     {
         scope = 2;
         displayName = "GOF M4A1 m203";
@@ -126,7 +154,7 @@ class cfgWeapons
     };
 	
 	
-			class GOFM4A1: rhs_weap_m4_grip2
+	class GOFM4A1: rhs_weap_m4_grip2
     {
         scope = 2;
         displayName = "GOF M4A1 Grip";
@@ -156,7 +184,7 @@ class cfgWeapons
 	class FunMG: rhs_weap_m249_pip_S_vfg //test gun DO NOT USE
 	{
 		scope = 2;
-        displayName = "GOFMG";
+        displayName = "Short Range High Explosive Assualt Weapon";
         class LinkedItems
         {
             class LinkedItemsOptic //Attachment: Optics

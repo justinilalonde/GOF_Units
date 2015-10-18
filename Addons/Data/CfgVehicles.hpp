@@ -3,13 +3,13 @@
 #define item_xx(a,b) class _xx_##a {name = a; count = b;}
 
 
- class CfgVehicles
+ class CfgVehicles              // *Finished does not mean no mistakes were made! Double check all gear!*
 {
-	class B_Soldier_F; 			// Rifleman *Finished*
+	class B_Soldier_F; 			// Rifleman  *Finished*
 	class B_Soldier_TL_F; 		// FTL
-	class B_soldier_LAT_F; 		// AT
-	class B_soldier_AR_F; 		// Autorifleman
-	class B_Soldier_A_F; 		// AR Assist *Finished*
+	class B_soldier_LAT_F; 		// AT  *Finished*
+	class B_soldier_AR_F; 		// Autorifleman  *Finished*
+	class B_Soldier_A_F; 		// AR Assist  *Finished*
 	class B_soldier_exp_F; 		// AT/EOD
 	class B_medic_F; 			// Medic
 	class B_Soldier_SL_F;		// Squadleader
@@ -85,6 +85,8 @@
 	};
 	
 	
+	
+	
 	class BluRiflePack: rhsusf_assault_eagleaiii_ocp
     {
         displayname = "Rifleman Backpack"; //In-Game Name
@@ -103,7 +105,8 @@
          };
     };
 	
-		class BluAARPack: rhsusf_assault_eagleaiii_ocp
+	
+	class BluAARPack: rhsusf_assault_eagleaiii_ocp
     {
         displayname = "AAR Backpack"; //In-Game Name
         scope = 2;
@@ -116,6 +119,43 @@
 		class TransportMagazines
          {
 			mag_xx(rhs_200rnd_556x45_T_SAW,2); //Item Classname
+			mag_xx(SmokeShell,0); //Item Classname
+
+         };
+    };
+	
+	
+	class BluARPack: rhsusf_assault_eagleaiii_ocp
+    {
+        displayname = "Automatic Rifleman Backpack"; //In-Game Name
+        scope = 2;
+ 
+        class TransportItems
+         {
+            
+         };
+		
+		class TransportMagazines
+         {
+			mag_xx(rhs_200rnd_556x45_T_SAW,2); //Item Classname
+			mag_xx(SmokeShell,0); //Item Classname
+
+         };
+    };
+	
+		class BluATPack: rhsusf_assault_eagleaiii_ocp
+    {
+        displayname = "AT Rifleman Backpack"; //In-Game Name
+        scope = 2;
+ 
+        class TransportItems
+         {
+            
+         };
+		
+		class TransportMagazines
+         {
+			mag_xx(rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red,0); //Item Classname
 			mag_xx(SmokeShell,0); //Item Classname
 
          };
