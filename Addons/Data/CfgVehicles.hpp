@@ -5,18 +5,18 @@
 
  class CfgVehicles
 {
-	class B_Soldier_F; 			// Rifleman
+	class B_Soldier_F; 			// Rifleman *Finished*
 	class B_Soldier_TL_F; 		// FTL
 	class B_soldier_LAT_F; 		// AT
 	class B_soldier_AR_F; 		// Autorifleman
-	class B_Soldier_A_F; 		// AR Assist
+	class B_Soldier_A_F; 		// AR Assist *Finished*
 	class B_soldier_exp_F; 		// AT/EOD
 	class B_medic_F; 			// Medic
 	class B_Soldier_SL_F;		// Squadleader
 	class B_Helipilot_F; 		// Chopper pilot
 	class B_helicrew_F; 		// Chopper crewman
 	class B_Pilot_F; 			// Fixed wing pilot
-	class rhsusf_assault_eagleaiii_ocp;
+	class rhsusf_assault_eagleaiii_ocp; // Standard Backpack
 	class NATO_Box_Base;
 	class B_Heli_Light_01_F; 
 	
@@ -99,6 +99,24 @@
          {
 			mag_xx(rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red,2); //Item Classname
 			mag_xx(SmokeShell,2); //Item Classname
+
+         };
+    };
+	
+		class BluAARPack: rhsusf_assault_eagleaiii_ocp
+    {
+        displayname = "AAR Backpack"; //In-Game Name
+        scope = 2;
+ 
+        class TransportItems
+         {
+            
+         };
+		
+		class TransportMagazines
+         {
+			mag_xx(rhs_200rnd_556x45_T_SAW,2); //Item Classname
+			mag_xx(SmokeShell,0); //Item Classname
 
          };
     };

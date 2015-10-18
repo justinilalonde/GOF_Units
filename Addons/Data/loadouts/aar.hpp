@@ -1,17 +1,18 @@
 		side = 1; //Blufor
 		faction = "GOFB"; //Your Faction
-		backpack = "BluRiflePack"; //Backpack
+		backpack = "BluAARPack"; //Backpack
 		vehicleclass = "GOFBUS"; //Unit Group
 		author = "Derby"; //Self Explanatory 
 		_generalMacro = "GOFBUSAAR"; //Class Name
 		scope = 2; //makes it visible in the editor 
 		displayName = "Assist AR"; //In-Game Name
-		weapons[] = {"GOFM16","rhs_weap_rsp30_red","Binocular","Throw","Put"}; //Spawning Gear
-		respawnWeapons[] = {"GOFM16","rhs_weap_rsp30_red","Binocular","Throw","Put"}; 
+		weapons[] = {"GOFM16","rhs_weap_rsp30_red","Rangefinder","Throw","Put"}; //Spawning Gear
+		respawnWeapons[] = {"GOFM16","rhs_weap_rsp30_red","Rangefinder","Throw","Put"}; 
 		magazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red",
 		"SmokeShell", "SmokeShell", "SmokeShell", "SmokeShell", "SmokeShell",
 		"SmokeShellGreen", "SmokeShellGreen", 
-		"SmokeShellBlue", "SmokeShellBlue", };
+		"SmokeShellBlue", "SmokeShellBlue",
+		"Chemlight_blue",  };
 		respawnMagazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red",
 		};
 		items[] = {MACRO_BasicKit, }; //ACE items in here

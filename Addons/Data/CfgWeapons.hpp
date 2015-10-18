@@ -10,7 +10,8 @@ class cfgWeapons
 	class rhs_weap_m4a1_carryhandle_m203S;
 	class rhsusf_ANPVS_15;
 	class rhs_weap_m249_pip_S_vfg;
- 
+	class rhs_weap_m4_grip2;
+	
     class TEST_Uniform: Uniform_Base
     {
         scope = 2;
