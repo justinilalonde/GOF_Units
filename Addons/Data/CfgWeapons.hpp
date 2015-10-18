@@ -9,7 +9,7 @@ class cfgWeapons
 	class rhs_weap_m16a4_carryhandle_grip;
 	class rhs_weap_m4a1_carryhandle_m203S;
 	class rhsusf_ANPVS_15;
-	
+	class rhs_weap_m249_pip_S_vfg;
  
     class TEST_Uniform: Uniform_Base
     {
@@ -152,7 +152,7 @@ class cfgWeapons
     };
 	
 	
-	class MyMG 
+	class FunMG: rhs_weap_m249_pip_S_vfg //test gun DO NOT USE
 	{
 		scope = 2;
         displayName = "GOFMG";
@@ -176,6 +176,8 @@ class cfgWeapons
             item = "rhsusf_acc_anpeq15side";
          };
         };
+		magazines[] = {"GOFHESAWAMMO", "rhs_200rnd_556x45_M_SAW"};
+		reloadTime = 0.13;
         ace_overheating_allowSwapBarrel = 1;  // Enable barrel swap (0-disabled, 1-enabled) - information below
         ace_overheating_dispersion[] = {0, -0.001, 0.001, 0.004};  // Bullet dispersion (in radians) - information below
         ace_overheating_slowdownFactor[] = {1, 1, 1, 0.9};  // Slowdown factor inside the barrel - information below
