@@ -17,6 +17,7 @@
 	class B_helicrew_F; 		// Chopper crewman
 	class B_Pilot_F; 			// Fixed wing pilot
 	class rhsusf_assault_eagleaiii_ocp; // Standard Backpack
+	class tf_rt1523g_rhs;       // Radio Backpack
 	class NATO_Box_Base;
 	class B_Heli_Light_01_F; 
 	
@@ -178,6 +179,29 @@
 			mag_xx(rhs_mag_m662_red,2);
 			mag_xx(rhs_mag_M585_white,2);
 			mag_xx(rhs_mag_m713_Red,4);
+			mag_xx(rhs_mag_m714_White,10);
+			mag_xx(rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red,0);	//Item Classname
+
+         };
+    };
+	
+	
+	class BluSQLPack: tf_rt1523g_rhs
+    {
+        displayname = "FTL Backpack"; //In-Game Name
+        scope = 2;
+ 
+        class TransportItems
+         {
+            
+         };
+		
+		class TransportMagazines
+         {
+			mag_xx(rhs_mag_M433_HEDP,0); //Item Classname
+			mag_xx(rhs_mag_m662_red,2);
+			mag_xx(rhs_mag_M585_white,2);
+			mag_xx(rhs_mag_m713_Red,0);
 			mag_xx(rhs_mag_m714_White,10);
 			mag_xx(rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red,0);	//Item Classname
 
