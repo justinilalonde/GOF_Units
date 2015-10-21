@@ -14,7 +14,7 @@
 		magazines[] = {"rhs_200rnd_556x45_T_SAW", "rhs_200rnd_556x45_T_SAW", "rhs_200rnd_556x45_T_SAW",
 		"SmokeShell", "SmokeShell", };
 		
-		respawnMagazines[] = {"rhs_200rnd_556x45_T_SAW", "rhs_200rnd_556x45_T_SAW",
+		respawnMagazines[] = {"rhs_200rnd_556x45_T_SAW", "rhs_200rnd_556x45_T_SAW", "rhs_200rnd_556x45_T_SAW",
 		"SmokeShell", "SmokeShell", };
 		
 		items[] = {MACRO_BasicKit, }; //ACE items in here

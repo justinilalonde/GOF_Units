@@ -34,7 +34,8 @@
 		"ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item",		}; //ACE items in here
 		
 		respawnitems[] = {MACRO_BasicKit, 
-		"ACE_CableTie", "ACE_CableTie", };
+		"ACE_CableTie", "ACE_CableTie",
+		"ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item",		};
 		
 		linkedItems[] = {"rhsusf_iotv_ocp_Teamleader","rhsusf_ach_helmet_headset_ocp","ItemMap","ItemCompass","tfmicrodagr","tfanprc152_10","ItemGPS","NVGREG"};
 		
