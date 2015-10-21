@@ -6,7 +6,7 @@
  class CfgVehicles              // *Finished does not mean no mistakes were made! Double check all gear!*
 {
 	class B_Soldier_F; 			// Rifleman  *Finished*
-	class B_Soldier_TL_F; 		// FTL
+	class B_Soldier_TL_F; 		// FTL  *Finished*
 	class B_soldier_LAT_F; 		// AT  *Finished*
 	class B_soldier_AR_F; 		// Autorifleman  *Finished*
 	class B_Soldier_A_F; 		// AR Assist  *Finished*
@@ -160,6 +160,30 @@
 
          };
     };
+	
+	
+	class BluFTLPack: rhsusf_assault_eagleaiii_ocp
+    {
+        displayname = "FTL Backpack"; //In-Game Name
+        scope = 2;
+ 
+        class TransportItems
+         {
+            
+         };
+		
+		class TransportMagazines
+         {
+			mag_xx(rhs_mag_M433_HEDP,6); //Item Classname
+			mag_xx(rhs_mag_m662_red,2);
+			mag_xx(rhs_mag_M585_white,2);
+			mag_xx(rhs_mag_m713_Red,4);
+			mag_xx(rhs_mag_m714_White,10);
+			mag_xx(rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red,0);	//Item Classname
+
+         };
+    };
+	
 	
 	class GOFBOXTEST: NATO_Box_Base 
 	{
