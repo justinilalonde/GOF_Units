@@ -12,7 +12,7 @@
 	class B_Soldier_A_F; 		// AR Assist  *Finished*
 	class B_soldier_exp_F; 		// AT/EOD
 	class B_medic_F; 			// Medic
-	class B_Soldier_SL_F;		// Squadleader
+	class B_Soldier_SL_F;		// Squadleader *Finished*
 	class B_Helipilot_F; 		// Chopper pilot
 	class B_helicrew_F; 		// Chopper crewman
 	class B_Pilot_F; 			// Fixed wing pilot

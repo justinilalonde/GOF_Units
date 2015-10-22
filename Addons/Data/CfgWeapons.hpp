@@ -9,6 +9,7 @@ class cfgWeapons
 	class rhs_weap_m16a4_carryhandle_grip;
 	class rhs_weap_m4a1_carryhandle_m203S;
 	class rhsusf_ANPVS_15;
+	class rhsusf_ANPVS_14;
 	class rhs_weap_m249_pip_S_vfg;
 	class rhs_weap_m4_grip2;
 	
@@ -215,6 +216,15 @@ class cfgWeapons
 	
 	
 	class NVGREG: rhsusf_ANPVS_15
+	{
+        displayName = "High Quality NVGs";  // Name displayed in the inventory
+        ace_nightVision_grain = 2.75;  // Amount of grain (dots) on the screen (more means more grain) - can be higher than 1   default:0.75
+        ace_nightVision_blur = 0.100;  // Blur amount (more means more blur) - keep low values!                                 default:0.055
+        ace_nightVision_radBlur = 0.001;  // Radial blur amount (more means more blur) - keep low values!                       default:0.001
+    };
+
+	
+	class NVGTL: rhsusf_ANPVS_14
 	{
         displayName = "High Quality NVGs";  // Name displayed in the inventory
         ace_nightVision_grain = 2.75;  // Amount of grain (dots) on the screen (more means more grain) - can be higher than 1   default:0.75
