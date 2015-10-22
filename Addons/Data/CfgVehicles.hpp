@@ -170,11 +170,7 @@
  
         class TransportItems
          {
-            class _xx_ACE_DefusalKit //Item Classname
-            {
-                name = "Defusal Kit";
-                count = 1; //amount
-            };
+            item_xx(ACE_DefusalKit,1);
          };
 		
 		class TransportMagazines
