@@ -7,6 +7,15 @@ class cfgFactionClasses
   priority = 1; //How far down it is on the menu
   side = 1; // 1 Blufor 0 opfor 2 independant i think.
  };
+ 
+ class PRESS //Faction Calling Name
+ {
+  displayName = "PRESS"; //Faction name in-game
+  icon = "GOF_units\logo.paa"; //Path to texture next to the faction name in editor "PBOname\filename.paa"
+  priority = 1; //How far down it is on the menu
+  side = 1; // 1 Blufor 0 opfor 2 independant i think.
+ };
+ 
 };
 class CfgVehicleClasses
 {
@@ -15,6 +24,13 @@ class CfgVehicleClasses
 	displayName = "US"; //In-game name
 	priority = 1; // How far down it is on the menu
  };
+ 
+  class USPRESS //Name of unit group e.g Air, Infantry, Armour
+ {
+	displayName = "PRESS"; //In-game name
+	priority = 1; // How far down it is on the menu
+ };
+ 
  class GOFBNONE
  {
 	 displayName = "nothing here yet"; //in-game name

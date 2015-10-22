@@ -87,6 +87,14 @@
 	
 	
 	
+	//PRESS
+	
+	class PRESSPH:   B_Soldier_F
+	{
+		#include "loadouts\photographer.hpp"
+	};
+	
+	
 	
 	class BluRiflePack: rhsusf_assault_eagleaiii_ocp
     {

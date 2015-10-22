@@ -242,5 +242,26 @@ class cfgWeapons
         ace_overpressure_damage = 0.7;  // Damage multiplier
 		ace_reloadlaunchers_enabled = 1;  // Allow your buddies to reload your launcher (0-disabled, 1-enabled)
     };
+		
+	class Binocular;
+    class Camera: Binocular {
+	displayName = "Camera";
+        model = "\GOF_units\Camera.p3d"; 
+		hiddenSelections[] = {"Camo"};
+		hiddenSelectionsTextures[] = {"\GOF_units\texture.paa"};
+        opticsZoomMax = 0.1;
+        distanceZoomMax = 30;
+        opticsZoomMin = 0.05;
+        distanceZoomMin = 50;
+        opticsZoomInit = 0.1;
+        discretefov[] = {0.33333/1, 0.33333/2}; // 1x/2x -- http://www.drs.com/Products/RSTA/PDF/MX2A.pdf
+        discreteInitIndex = 0;
+        discreteDistance[] = {120,400};
+        discreteDistanceInitIndex = 1;
+        class WeaponSlotsInfo {
+            mass = 20;
+        };
+    };	
+		
 	
 };
