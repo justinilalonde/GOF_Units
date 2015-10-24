@@ -10,7 +10,7 @@
 	class B_soldier_LAT_F; 		// AT  *Finished*
 	class B_soldier_AR_F; 		// Autorifleman  *Finished*
 	class B_Soldier_A_F; 		// AR Assist  *Finished*
-	class B_soldier_exp_F; 		// AT/EOD *cant add defusal kit and has 2 earplugs*
+	class B_soldier_exp_F; 		// AT/EOD *Finished has 2 earplugs*
 	class B_medic_F; 			// Medic
 	class B_Soldier_SL_F;		// Squadleader *Finished*
 	class B_Helipilot_F; 		// Chopper pilot
