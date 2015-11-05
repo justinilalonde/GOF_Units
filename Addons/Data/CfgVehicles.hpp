@@ -110,7 +110,7 @@
 		
 		class TransportMagazines
          {
-			mag_xx(rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red,2); //Item Classname
+			mag_xx(rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red,5); //Item Classname
 			mag_xx(SmokeShell,2); //Item Classname
 
          };
