@@ -11,15 +11,16 @@
 	class B_soldier_AR_F; 		// Autorifleman  *Finished*
 	class B_Soldier_A_F; 		// AR Assist  *Finished*
 	class B_soldier_exp_F; 		// AT/EOD *Finished has 2 earplugs*
-	class B_medic_F; 			// Medic
+	class B_medic_F; 			// Medic	*Finished*
 	class B_Soldier_SL_F;		// Squadleader *Finished*
 	class B_Helipilot_F; 		// Chopper pilot
 	class B_helicrew_F; 		// Chopper crewman
 	class B_Pilot_F; 			// Fixed wing pilot
 	class rhsusf_assault_eagleaiii_ocp; // Standard Backpack
-	class tf_rt1523g_rhs;       // Radio Backpack
-	class NATO_Box_Base;
-	class B_Heli_Light_01_F; 
+	class tf_rt1523g_rhs; 		// Radio Backpack
+	class tf_rt1523g_big_rhs;	// Radio Backpack larger
+	class NATO_Box_Base;		//Test box, texture not showing
+	class B_Heli_Light_01_F; 	//Test Vehicle
 	
     #define MACRO_BasicKit \
     "ACE_EarPlugs", \
@@ -185,6 +186,28 @@
          {
 			mag_xx(rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red,0); //Item Classname
 			mag_xx(DemoCharge_Remote_Mag,4); //Item Classname
+
+         };
+    };
+	
+		class BluMEDPack: tf_rt1523g_big_rhs
+    {
+        displayname = "Medical Radio Backpack"; //In-Game Name
+        scope = 2;
+ 
+        class TransportItems
+         {
+            item_xx(ACE_elasticBandage,15);
+			item_xx(ACE_salineIV_500,15);
+			item_xx(ACE_tourniquet,2);
+			item_xx(ACE_packingBandage,20);
+			item_xx(ACE_personalAidKit,5);
+         };
+		
+		class TransportMagazines
+         {
+			mag_xx(rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red,0); //Item Classname
+			mag_xx(DemoCharge_Remote_Mag,0); //Item Classname
 
          };
     };
