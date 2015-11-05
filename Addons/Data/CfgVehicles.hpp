@@ -10,12 +10,12 @@
 	class B_soldier_LAT_F; 		// AT  *Finished*
 	class B_soldier_AR_F; 		// Autorifleman  *Finished*
 	class B_Soldier_A_F; 		// AR Assist  *Finished*
-	class B_soldier_exp_F; 		// AT/EOD *Finished has 2 earplugs*
+	class B_soldier_exp_F; 		// AT/EOD *Finished, has 2 earplugs*
 	class B_medic_F; 			// Medic	*Finished*
 	class B_Soldier_SL_F;		// Squadleader *Finished*
 	class B_Helipilot_F; 		// Chopper pilot *Finished*
 	class B_helicrew_F; 		// Chopper crewman *Finished*
-	class B_Pilot_F; 			// Fixed wing pilot
+	class B_Pilot_F; 			// Fixed wing pilot	*Finished*
 	class rhsusf_assault_eagleaiii_ocp; // Standard Backpack
 	class tf_rt1523g_rhs; 		// Radio Backpack
 	class tf_rt1523g_big_rhs;	// Radio Backpack larger
@@ -304,6 +304,31 @@
 
          };
     };
+	
+	
+	class BluFixPilotPack: tf_rt1523g
+    {
+        displayname = "Fixed Pilot Radio"; //In-Game Name
+        scope = 2;
+ 
+        class TransportItems
+         {
+            item_xx(ACE_elasticBandage,0);
+			item_xx(ACE_salineIV_500,0);
+			item_xx(ACE_tourniquet,0);
+			item_xx(ACE_packingBandage,0);
+			item_xx(ACE_personalAidKit,0);
+         };
+		
+		class TransportMagazines
+         {
+			mag_xx(rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red,0); //Item Classname
+			mag_xx(DemoCharge_Remote_Mag,0); //Item Classname
+
+         };
+    };
+	
+	
 	
 	class GOFBOXTEST: NATO_Box_Base 
 	{
