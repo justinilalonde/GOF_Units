@@ -7,21 +7,17 @@
 		scope = 2; //makes it visible in the editor 
 		displayName = "EOD/AT"; //In-Game Name
 		
-		weapons[] = {"GOFM4A1", "rhs_weap_M136_hedp", "rhs_weap_rsp30_red","Binocular","Throw","Put"}; //Spawning Gear
+		weapons[] = {"GOFM4A1", "rhs_weap_M136_hedp","Binocular","Throw","Put"}; //Spawning Gear
 		
-		respawnWeapons[] = {"GOFM4A1", "rhs_weap_M136_hedp", "rhs_weap_rsp30_red","Binocular","Throw","Put"}; 
+		respawnWeapons[] = {"GOFM4A1", "rhs_weap_M136_hedp","Binocular","Throw","Put"}; 
 		
 		magazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red", 
-		"rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red", 
-		"SmokeShell", "SmokeShell", "SmokeShell", "SmokeShell",
-		"SmokeShellGreen",  
-		"SmokeShellBlue", };
+		"rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red", 
+		"SmokeShell", "SmokeShell", "SmokeShell", "SmokeShell", };
 		
 		respawnMagazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red", 
-		"rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red", 
-		"SmokeShell", "SmokeShell", "SmokeShell", "SmokeShell",
-		"SmokeShellGreen",  
-		"SmokeShellBlue", };
+		"rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red", 
+		"SmokeShell", "SmokeShell", "SmokeShell", "SmokeShell", };
 		
 		items[] = {MACRO_BasicKit, }; //ACE items in here
 		

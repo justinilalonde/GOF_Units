@@ -7,9 +7,9 @@
 		scope = 2; //makes it visible in the editor 
 		displayName = "Fireteam leader"; //In-Game Name
 		
-		weapons[] = {"GOFM4A1203","rhs_weap_rsp30_red","Laserdesignator","Throw","Put"}; //Spawning Gear
+		weapons[] = {"GOFM4A1203","Laserdesignator","Throw","Put"}; //Spawning Gear
 		
-		respawnWeapons[] = {"GOFM16","rhs_weap_rsp30_red","Binocular","Throw","Put"}; 
+		respawnWeapons[] = {"GOFM16","Laserdesignator","Throw","Put"}; 
 		
 		magazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red",
 		"rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red", 

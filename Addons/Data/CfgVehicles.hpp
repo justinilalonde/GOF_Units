@@ -5,17 +5,17 @@
 
  class CfgVehicles              // *Finished does not mean no mistakes were made! Double check all gear!*
 {
-	class B_Soldier_F; 			// Rifleman  *Finished*
-	class B_Soldier_TL_F; 		// FTL  *Finished*
-	class B_soldier_LAT_F; 		// AT  *Finished*
-	class B_soldier_AR_F; 		// Autorifleman  *Finished*
-	class B_Soldier_A_F; 		// AR Assist  *Finished*
-	class B_soldier_exp_F; 		// AT/EOD *Finished, has 2 earplugs*
-	class B_medic_F; 			// Medic	*Finished*
-	class B_Soldier_SL_F;		// Squadleader *Finished*
-	class B_Helipilot_F; 		// Chopper pilot *Finished*
-	class B_helicrew_F; 		// Chopper crewman *Finished*
-	class B_Pilot_F; 			// Fixed wing pilot	*Finished*
+	class B_Soldier_F; 			// Rifleman  
+	class B_Soldier_TL_F; 		// FTL  
+	class B_soldier_LAT_F; 		// AT  
+	class B_soldier_AR_F; 		// Autorifleman  
+	class B_Soldier_A_F; 		// AR Assist  
+	class B_soldier_exp_F; 		// AT/EOD *has 2 earplugs*
+	class B_medic_F; 			// Medic	
+	class B_Soldier_SL_F;		// Squadleader 
+	class B_Helipilot_F; 		// Chopper pilot 
+	class B_helicrew_F; 		// Chopper crewman
+	class B_Pilot_F; 			// Fixed wing pilot
 	class rhsusf_assault_eagleaiii_ocp; // Standard Backpack
 	class tf_rt1523g_rhs; 		// Radio Backpack
 	class tf_rt1523g_big_rhs;	// Radio Backpack larger
@@ -239,7 +239,7 @@
 	
 	class BluSQLPack: tf_rt1523g_rhs
     {
-        displayname = "FTL Backpack"; //In-Game Name
+        displayname = "SL Backpack"; //In-Game Name
         scope = 2;
  
         class TransportItems

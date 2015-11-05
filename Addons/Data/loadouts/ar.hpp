@@ -7,9 +7,9 @@
 		scope = 2; //makes it visible in the editor 
 		displayName = "Automatic Rifleman"; //In-Game Name
 		
-		weapons[] = {"GOFM249","rhs_weap_rsp30_red", "Throw","Put"}; //Spawning Gear
+		weapons[] = {"GOFM249","Throw","Put"}; //Spawning Gear
 		
-		respawnWeapons[] = {"GOFM249","rhs_weap_rsp30_red","Throw","Put"}; 
+		respawnWeapons[] = {"GOFM249","Throw","Put"}; 
 		
 		magazines[] = {"rhs_200rnd_556x45_T_SAW", "rhs_200rnd_556x45_T_SAW", "rhs_200rnd_556x45_T_SAW",
 		"SmokeShell", "SmokeShell", };
