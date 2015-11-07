@@ -21,6 +21,8 @@
 	class tf_rt1523g_big_rhs;	// Radio Backpack larger
 	class tf_rt1523g;			// Radio Backpack small
 	class NATO_Box_Base;		//Test box, texture not showing
+	class RHS_UH60M;			//Black Hawk
+	class RHS_UH60M_MEV;		//Black Hawk Medical
 	class B_Heli_Light_01_F; 	//Test Vehicle
 	
     #define MACRO_BasicKit \
@@ -350,14 +352,13 @@
             };
 		};
     };
-	class TEST_MH9: B_Heli_Light_01_F 
+	class GOFBHAWK: RHS_UH60M
+ 
 	{
 		faction = "GOFB"; //Faction
 		vehicleclass = "GOFBUS"; //Group Class
-		displayName = "MH-9(WIP)"; //Ingame name
+		displayName = "UH60M"; //Ingame name
 		crew = "B_Helipilot_F"; //or if you make your own crew... crew = "TEST_Heli_pilot";
-		hiddenSelections[] = {"camo1","camo2","camo3"};
-		hiddenSelectionsTextures[] = {"TEST\Data\TEST_mh9_co.paa","TEST\Data\TEST_MH9_co.paa","TEST\Data\TEST_MH9_co.paa"};
 		class TransportItems //Cargo Items
          {
             class _xx_Medikit //Item Classname
@@ -370,11 +371,6 @@
                 name = "FirstAidKit";
                 count = 5; //amount
             };
-			class _xx_TEST_Gun //Item Classname
-			{
-				name = "MX Camo";
-				count = 10; //amount
-			}
 			class _xx_30Rnd_65x39_caseless_mag //Item Classname
 			{
 				count = 25; //amount
