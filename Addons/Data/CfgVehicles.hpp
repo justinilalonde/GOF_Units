@@ -352,13 +352,16 @@
             };
 		};
     };
+	
+	
+	
 	class GOFBHAWK: RHS_UH60M
- 
 	{
 		faction = "GOFB"; //Faction
 		vehicleclass = "GOFBUS"; //Group Class
 		displayName = "UH60M"; //Ingame name
 		crew = "B_Helipilot_F"; //or if you make your own crew... crew = "TEST_Heli_pilot";
+		scope = 2;
 		class TransportItems //Cargo Items
          {
             class _xx_Medikit //Item Classname
@@ -371,11 +374,15 @@
                 name = "FirstAidKit";
                 count = 5; //amount
             };
+         };
+		 
+		 class TransportMagazines //Cargo Items
+		 {
 			class _xx_30Rnd_65x39_caseless_mag //Item Classname
 			{
 				count = 25; //amount
-			}
-         };
+			} 
+		 }
 	};
 	
 };
