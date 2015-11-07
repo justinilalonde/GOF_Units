@@ -37,9 +37,9 @@
 		"ACE_packingBandage", "ACE_packingBandage", "ACE_packingBandage", "ACE_packingBandage", "ACE_packingBandage", 
 		"ACE_elasticBandage", "ACE_elasticBandage", "ACE_elasticBandage", "ACE_elasticBandage", "ACE_elasticBandage", 		};
 		
-		linkedItems[] = {"V_TacVest_oli","H_PilotHelmetFighter_O","ItemMap","ItemCompass","tfmicrodagr","tfanprc152","ItemGPS","NVGTL"};
+		linkedItems[] = {"V_TacVest_oli","H_PilotHelmetFighter_O","ItemMap","ItemCompass","tf_microdagr","tf_anprc152","ItemGPS","NVGTL"};
 		
-		respawnLinkedItems[] = {"V_TacVest_oli","H_PilotHelmetFighter_O","ItemMap","ItemCompass","tfmicrodagr","tfanprc152","ItemGPS","NVGTL"};
+		respawnLinkedItems[] = {"V_TacVest_oli","H_PilotHelmetFighter_O","ItemMap","ItemCompass","tf_microdagr","tf_anprc152","ItemGPS","NVGTL"};
 		
 		uniformClass = "U_I_pilotCoveralls"; //uniform you are using
 		camouflage = 1.6; //If wanting to edit how hard it is for AI to detect it, wouldn't recommend changing this. 1.6 is Default and 2.0 is a sniper ghille 
