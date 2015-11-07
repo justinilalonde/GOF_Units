@@ -385,4 +385,85 @@
 		};
 	};
 	
+	
+	class GOFBHAWK_MEV: RHS_UH60M_MEV
+
+	{
+		faction = "GOFB"; //Faction
+		vehicleclass = "GOFBUS"; //Group Class
+		displayName = "UH60M MEV"; //Ingame name
+		crew = "B_Helipilot_F"; //or if you make your own crew... crew = "TEST_Heli_pilot";
+		scope = 2;
+		scopeCurator = 2;
+		class TransportItems //Cargo Items
+        {
+            class _xx_ACE_morphine //Item Classname
+            {
+                name = "ACE_Morphine";
+                count = 100; //amount
+            };
+			
+			  class _xx_ACE_epinephrine //Item Classname
+            {
+                name = "ACE_epinephrine";
+                count = 100; //amount
+            };
+			
+				  class _xx_ACE_atropine //Item Classname
+            {
+                name = "ACE_atropine";
+                count = 100; //amount
+            };
+			
+            class _xx_ACE_personalAidKit //Item Classname
+            {
+                name = "ACE_personalAidKit";
+                count = 100; //amount
+            };
+			
+			 class _xx_ACE_elasticBandage //Item Classname
+            {
+                name = "ACE_elasticBandage";
+                count = 100; //amount
+            };
+			
+			 class _xx_packingBandage //Item Classname
+            {
+                name = "packingBandage";
+                count = 100; //amount
+            };
+			
+			 class _xx_ACE_salineIV_500 //Item Classname
+            {
+                name = "ACE_salineIV_500";
+                count = 100; //amount
+            };
+			
+			 class _xx_ACE_quikclot //Item Classname
+            {
+                name = "ACE_quikclot";
+                count = 100; //amount
+            };
+			
+			 class _xx_ACE_tourniquet //Item Classname
+            {
+                name = "ACE_tourniquet";
+                count = 25; //amount
+            };
+			
+			 class _xx_ACE_surgicalKit //Item Classname
+            {
+                name = "ACE_surgicalKit";
+                count = 5; //amount
+            };
+			
+        };
+		 
+		class TransportMagazines
+		{	
+			mag_xx(rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red,10); //Item Classname
+						
+		};
+	};
+	
 };
