@@ -4,7 +4,13 @@ class CfgPatches
 {
     class GOFB 
     {
-        units[] = {};
+        units[] = {
+		//Infantry 
+		GOFBUSSQL, GOFBUSFTL, GOFBUSR, GOFBUSAT, GOFBUSAR, GOFBUSAAR, GOFBUSEOD, GOFBUSMED, GOFBUSHEP, GOFBUSHEC, GOFBUSFIX,
+		
+		//Helicopters
+		GOFBHAWK
+		};
         weapons[] = {};
         requiredVersion = 0.1;
         requiredAddons[] = {a3_characters_F, a3_characters_f_beta, a3_characters_f_gamma};

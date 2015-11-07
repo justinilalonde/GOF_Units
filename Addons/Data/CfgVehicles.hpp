@@ -362,6 +362,7 @@
 		displayName = "UH60M"; //Ingame name
 		crew = "B_Helipilot_F"; //or if you make your own crew... crew = "TEST_Heli_pilot";
 		scope = 2;
+		scopeCurator = 2;
 		class TransportItems //Cargo Items
          {
             class _xx_Medikit //Item Classname

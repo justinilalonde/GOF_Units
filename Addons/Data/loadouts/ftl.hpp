@@ -6,6 +6,7 @@
 		_generalMacro = "GOFBUSFTL"; //Class Name
 		scope = 2; //makes it visible in the editor 
 		displayName = "Fireteam leader"; //In-Game Name
+		scopeCurator = 2;
 		
 		weapons[] = {"GOFM4A1203","Laserdesignator","Throw","Put"}; //Spawning Gear
 		

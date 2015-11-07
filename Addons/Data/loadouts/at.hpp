@@ -6,6 +6,7 @@
 		_generalMacro = "GOFBUSAT"; //Class Name
 		scope = 2; //makes it visible in the editor 
 		displayName = "AT"; //In-Game Name
+		scopeCurator = 2;
 		
 		weapons[] = {"GOFM16","rhs_weap_M136_hp","rhs_weap_rsp30_red","Binocular","Throw","Put"}; //Spawning Gear
 		

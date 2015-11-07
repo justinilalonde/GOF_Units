@@ -6,6 +6,7 @@
 		_generalMacro = "GOFBUSAR"; //Class Name
 		scope = 2; //makes it visible in the editor 
 		displayName = "Automatic Rifleman"; //In-Game Name
+		scopeCurator = 2;
 		
 		weapons[] = {"GOFM249","Throw","Put"}; //Spawning Gear
 		

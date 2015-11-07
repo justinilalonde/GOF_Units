@@ -6,6 +6,7 @@
 		_generalMacro = "GOFBUSEOD"; //Class Name
 		scope = 2; //makes it visible in the editor 
 		displayName = "EOD/AT"; //In-Game Name
+		scopeCurator = 2;
 		
 		weapons[] = {"GOFM4A1", "rhs_weap_M136_hedp","Binocular","Throw","Put"}; //Spawning Gear
 		

@@ -6,6 +6,7 @@
 		_generalMacro = "GOFBUSFIX"; //Class Name
 		scope = 2; //makes it visible in the editor 
 		displayName = "Fixed wing Pilot"; //In-Game Name
+		scopeCurator = 2;
 		
 		weapons[] = {"GOFM4A1","rhs_weap_rsp30_red","Binocular","Throw","Put"}; //Spawning Gear
 		
