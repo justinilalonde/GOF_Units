@@ -392,7 +392,7 @@
 		faction = "GOFB"; //Faction
 		vehicleclass = "GOFBUS"; //Group Class
 		displayName = "UH60M MEV"; //Ingame name
-		crew = "B_Helipilot_F"; //or if you make your own crew... crew = "TEST_Heli_pilot";
+		crew = "GOFBUSHEP"; //or if you make your own crew... crew = "TEST_Heli_pilot";
 		scope = 2;
 		scopeCurator = 2;
 		class TransportItems //Cargo Items
@@ -418,7 +418,7 @@
             class _xx_ACE_personalAidKit //Item Classname
             {
                 name = "ACE_personalAidKit";
-                count = 100; //amount
+                count = 25; //amount
             };
 			
 			 class _xx_ACE_elasticBandage //Item Classname
@@ -427,16 +427,16 @@
                 count = 100; //amount
             };
 			
-			 class _xx_packingBandage //Item Classname
+			 class _xx_ACE_packingBandage //Item Classname
             {
-                name = "packingBandage";
+                name = "ACE_packingBandage";
                 count = 100; //amount
             };
 			
 			 class _xx_ACE_salineIV_500 //Item Classname
             {
                 name = "ACE_salineIV_500";
-                count = 100; //amount
+                count = 25; //amount
             };
 			
 			 class _xx_ACE_quikclot //Item Classname
@@ -448,7 +448,7 @@
 			 class _xx_ACE_tourniquet //Item Classname
             {
                 name = "ACE_tourniquet";
-                count = 25; //amount
+                count = 10; //amount
             };
 			
 			 class _xx_ACE_surgicalKit //Item Classname
