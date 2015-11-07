@@ -37,9 +37,9 @@
 		"ACE_CableTie", "ACE_CableTie",
 		"ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item",		};
 		
-		linkedItems[] = {"rhsusf_iotv_ocp_Teamleader","rhsusf_ach_helmet_headset_ocp","ItemMap","ItemCompass","tfmicrodagr","tfanprc152_10","itemAndroid","NVGTL"};
+		linkedItems[] = {"rhsusf_iotv_ocp_Teamleader","rhsusf_ach_helmet_headset_ocp","ItemMap","ItemCompass","tfmicrodagr","tfanprc152","itemAndroid","NVGTL"};
 		
-		respawnLinkedItems[] = {"rhsusf_iotv_ocp_Teamleader","rhsusf_ach_helmet_headset_ocp","ItemMap","ItemCompass","tfmicrodagr","tfanprc152_10","itemAndroid","NVGTL"};
+		respawnLinkedItems[] = {"rhsusf_iotv_ocp_Teamleader","rhsusf_ach_helmet_headset_ocp","ItemMap","ItemCompass","tfmicrodagr","tfanprc152","itemAndroid","NVGTL"};
 		
 		uniformClass = "rhs_uniform_cu_ocp"; //uniform you are using
 		camouflage = 1.6; //If wanting to edit how hard it is for AI to detect it, wouldn't recommend changing this. 1.6 is Default and 2.0 is a sniper ghille 
