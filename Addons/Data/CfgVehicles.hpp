@@ -364,7 +364,7 @@
 		scope = 2;
 		scopeCurator = 2;
 		class TransportItems //Cargo Items
-         {
+        {
             class _xx_Medikit //Item Classname
             {
                 name = "Medikit";
@@ -375,15 +375,14 @@
                 name = "FirstAidKit";
                 count = 5; //amount
             };
-         };
+        };
 		 
-		 class TransportMagazines //Cargo Items
-		 {
-			class _xx_30Rnd_65x39_caseless_mag //Item Classname
-			{
-				count = 25; //amount
-			} 
-		 }
+		class TransportMagazines
+		{	
+		
+			mag_xx(rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red,10); //Item Classname
+			mag_xx(DemoCharge_Remote_Mag,10); //Item Classname
+		};
 	};
 	
 };
