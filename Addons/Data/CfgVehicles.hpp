@@ -397,66 +397,19 @@
 		scopeCurator = 2;
 		class TransportItems //Cargo Items
         {
-            class _xx_ACE_morphine //Item Classname
-            {
-                name = "ACE_Morphine";
-                count = 100; //amount
-            };
-			
-			  class _xx_ACE_epinephrine //Item Classname
-            {
-                name = "ACE_epinephrine";
-                count = 100; //amount
-            };
-			
-				  class _xx_ACE_atropine //Item Classname
-            {
-                name = "ACE_atropine";
-                count = 100; //amount
-            };
-			
-            class _xx_ACE_personalAidKit //Item Classname
-            {
-                name = "ACE_personalAidKit";
-                count = 25; //amount
-            };
-			
-			 class _xx_ACE_elasticBandage //Item Classname
-            {
-                name = "ACE_elasticBandage";
-                count = 100; //amount
-            };
-			
-			 class _xx_ACE_packingBandage //Item Classname
-            {
-                name = "ACE_packingBandage";
-                count = 100; //amount
-            };
-			
-			 class _xx_ACE_salineIV_500 //Item Classname
-            {
-                name = "ACE_salineIV_500";
-                count = 25; //amount
-            };
-			
-			 class _xx_ACE_quikclot //Item Classname
-            {
-                name = "ACE_quikclot";
-                count = 100; //amount
-            };
-			
-			 class _xx_ACE_tourniquet //Item Classname
-            {
-                name = "ACE_tourniquet";
-                count = 10; //amount
-            };
-			
-			 class _xx_ACE_surgicalKit //Item Classname
-            {
-                name = "ACE_surgicalKit";
-                count = 5; //amount
-            };
-			
+		
+			item_xx(ACE_morphine,100);
+			item_xx(ACE_epinephrine,100);
+			item_xx(ACE_atropine,100);
+			item_xx(ACE_quikclot,100);
+			item_xx(ACE_elasticBandage,100);
+			item_xx(ACE_packingBandage,100);
+			item_xx(ACE_salineIV_500,25);
+			item_xx(ACE_tourniquet,10);
+			item_xx(ACE_packingBandage,0);
+			item_xx(ACE_personalAidKit,25);
+			item_xx(ACE_ACE_surgicalKit,5);
+				
         };
 		 
 		class TransportMagazines
