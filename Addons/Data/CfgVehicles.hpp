@@ -387,11 +387,9 @@
 			mag_xx(rhs_200rnd_556x45_T_SAW,20);			
 		};
 		
-		class TransportWeapons {
-			class _xx_weap {
-				count = 2;
-				weapon = "rhs_weap_m4_carryhandle";
-			};
+		class TransportWeapons 
+		{
+			weap_xx(rhs_weap_m4_carryhandle,2);
 		};
 		
 		class TransportBackpacks
@@ -436,11 +434,9 @@
 			mag_xx(rhs_200rnd_556x45_T_SAW,5);			
 		};
 		
-		class TransportWeapons {
-			class _xx_weap {
-				count = 2;
-				weapon = "rhs_weap_m4_carryhandle";
-			};
+		class TransportWeapons 
+		{
+			weap_xx(rhs_weap_m4_carryhandle,2);
 		};
 		
 		class TransportBackpacks
