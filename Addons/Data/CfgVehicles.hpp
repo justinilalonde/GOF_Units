@@ -337,6 +337,7 @@
 		faction = "GOFB"; //Faction
 		vehicleclass = "GOFBUS"; //Group Class
 		displayName = "Crate(WIP)";
+		scopeCurator = 2;
 		scope = 2;
         class TransportItems 
 		{
@@ -360,28 +361,30 @@
 		faction = "GOFB"; //Faction
 		vehicleclass = "GOFBUS"; //Group Class
 		displayName = "UH60M"; //Ingame name
-		crew = "B_Helipilot_F"; //or if you make your own crew... crew = "TEST_Heli_pilot";
+		crew = "GOFBUSHEP"; //or if you make your own crew... crew = "TEST_Heli_pilot";
 		scope = 2;
 		scopeCurator = 2;
 		class TransportItems //Cargo Items
         {
-            class _xx_Medikit //Item Classname
-            {
-                name = "Medikit";
-                count = 1; //amount
-            };
-            class _xx_FirstAidKit //Item Classname
-            {
-                name = "FirstAidKit";
-                count = 5; //amount
-            };
+		
+			item_xx(ACE_morphine,50);
+			item_xx(ACE_epinephrine,50);
+			item_xx(ACE_atropine,50);
+			item_xx(ACE_quikclot,50);
+			item_xx(ACE_elasticBandage,50);
+			item_xx(ACE_packingBandage,50);
+			item_xx(ACE_salineIV_500,25);
+			item_xx(ACE_tourniquet,10);
+			item_xx(ACE_personalAidKit,25);
+			item_xx(ACE_ACE_surgicalKit,1);
+				
         };
 		 
 		class TransportMagazines
 		{	
-		
-			mag_xx(rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red,10); //Item Classname
-			mag_xx(DemoCharge_Remote_Mag,10); //Item Classname
+			mag_xx(rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red,50);
+			mag_xx(DemoCharge_Remote_Mag,5);	//Item Classname
+			mag_xx(rhs_200rnd_556x45_T_SAW,20);			
 		};
 	};
 	
@@ -406,7 +409,6 @@
 			item_xx(ACE_packingBandage,100);
 			item_xx(ACE_salineIV_500,25);
 			item_xx(ACE_tourniquet,10);
-			item_xx(ACE_packingBandage,0);
 			item_xx(ACE_personalAidKit,25);
 			item_xx(ACE_ACE_surgicalKit,5);
 				
@@ -414,8 +416,8 @@
 		 
 		class TransportMagazines
 		{	
-			mag_xx(rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red,10); //Item Classname
-						
+			mag_xx(rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red,20); //Item Classname
+			mag_xx(rhs_200rnd_556x45_T_SAW,5);			
 		};
 	};
 	
