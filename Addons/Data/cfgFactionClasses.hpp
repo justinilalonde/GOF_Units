@@ -21,13 +21,13 @@ class CfgVehicleClasses
 {
  class GOFBUS //Name of unit group e.g Air, Infantry, Armour
  {
-	displayName = "US"; //In-game name
+	displayName = "GOF US"; //In-game name
 	priority = 1; // How far down it is on the menu
  };
  
   class USPRESS //Name of unit group e.g Air, Infantry, Armour
  {
-	displayName = "PRESS"; //In-game name
+	displayName = "GOF PRESS"; //In-game name
 	priority = 1; // How far down it is on the menu
  };
  

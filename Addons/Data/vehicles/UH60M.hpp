@@ -23,20 +23,16 @@
 		class TransportMagazines
 		{	
 			mag_xx(rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red,50);
-			mag_xx(DemoCharge_Remote_Mag,5);	//Item Classname
+			mag_xx(DemoCharge_Remote_Mag,5);
 			mag_xx(rhs_200rnd_556x45_T_SAW,20);			
 		};
 		
 		class TransportWeapons 
 		{
-			weap_xx(rhs_weap_m4_carryhandle,2);
+			weap_xx(GOFM16,5);
 		};
 		
 		class TransportBackpacks
 		{
-			class _xx_B_Parachute
-			{
-				backpack="B_Parachute";
-				count=4;
-			};
+
 		};

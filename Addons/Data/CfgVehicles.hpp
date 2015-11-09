@@ -23,7 +23,6 @@
 	class NATO_Box_Base;		//Test box, texture not showing
 	class RHS_UH60M;			//Black Hawk
 	class RHS_UH60M_MEV;		//Black Hawk Medical
-	class B_Heli_Light_01_F; 	//Test Vehicle
 	
     #define MACRO_BasicKit \
     "ACE_EarPlugs", \
